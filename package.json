@@ -4,11 +4,16 @@
   "description": "Course about dev tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "list": "ls -la"
   },
   "keywords": [
     "course"
   ],
   "author": "dls",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
