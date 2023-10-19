@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watch",
     "list": "ls -la"
   },
   "keywords": [
@@ -14,6 +14,7 @@
   "author": "dls",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.7.0",
     "nodemon": "^3.0.1"
   }
 }
