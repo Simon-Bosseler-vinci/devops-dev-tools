@@ -9,3 +9,8 @@ test('should return only one name as the rest contains the letter x', () => {
   const result = checkNames(['DMX', 'Xzibit', 'JeanKevin']);
   expect(result).toEqual(['JeanKevin']);
 });
+
+test('should return only two names as xena contains the letter x', () => {
+  const result = checkNames(['JC', 'Leo', 'xena']);
+  expect(result).toEqual(['JC', 'Leo']);
+});
