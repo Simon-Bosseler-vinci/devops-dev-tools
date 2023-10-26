@@ -1,6 +1,6 @@
 console.log('Hello world');
 
 function checkNames(names) {
-    return [];
+    return names;
 }
 module.exports = checkNames;
